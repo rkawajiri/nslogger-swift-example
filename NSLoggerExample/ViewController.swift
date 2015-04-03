@@ -9,9 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+  let tag: String = "ViewController"
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    LogMessage_va(tag, 0, "This is test log", getVaList([]))
+
     // Do any additional setup after loading the view, typically from a nib.
   }
 
