@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    LogMessage_va(tag, 0, "This is test log", getVaList([]))
+    LogMessage(tag, 0, "This is test log")
 
     // Do any additional setup after loading the view, typically from a nib.
   }
