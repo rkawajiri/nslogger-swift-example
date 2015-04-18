@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NSLogger
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

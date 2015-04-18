@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NSLogger
 
 class ViewController: UIViewController {
   let tag: String = "ViewController"
